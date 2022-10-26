@@ -281,9 +281,8 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-.footer-a-column
+.footer-a-colum2
 {
-    width: 300px;
     font-size: 12px;
     color: rgba(110, 110, 115, 1);
     font-weight: 200;
@@ -292,10 +291,8 @@ footer{
 }
 .footer-a-column1
 {
-    display: block;
-    width: 300px;
     font-size: 12px;
     color: rgba(110, 110, 115, 1);
     font-weight: 200;
-    width: 78px;
 }
+
