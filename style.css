@@ -1,0 +1,301 @@
+@import url('http;//fonts.cdnfonts.com/css/sf-pro-display');
+*
+{
+    font-family: 'SF pro Display', sans-serif;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+
+
+
+
+
+.navi-container
+{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 44px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+.navi
+{
+    color: white;
+    margin: 0 auto;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*  Keep out Keep out Keep out Keep out Keep out Keep out Keep out Keep out */
+
+
+
+.iphone14-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    background: rgba(251, 251, 253, 1);
+    width: 100vw;
+
+}
+.img-iphone14
+{
+    width: 600px;
+    height: 499px;
+    background-image: url(./img/iphone14.png);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.iphone14-header
+{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 0px;
+    letter-spacing: 0.28px;
+    color:rgba(29, 29, 31, 1);
+}
+.iphone14-big
+{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.11px;
+    color:rgba(29, 29, 31, 1);
+}
+.iphone14-links
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 200px;
+    color: rgba(0, 102, 204, 1);
+}
+
+
+
+/*  Keep out Keep out Keep out Keep out Keep out Keep out Keep out Keep out */
+
+
+
+.iphone14pro-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 1);
+    width: 100vw;
+    height: 50vw;
+    background-image: url(./img/iphone14\ pro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.iphone14pro-header
+{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 0px;
+    letter-spacing: 0.28px;
+    color: rgba(245, 245, 247, 1);
+}
+.iphone14pro-big
+{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.11px;
+    color: rgba(245, 245, 247, 1);
+}
+.iphone14pro-links
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 200px;
+    color: rgba(41, 151, 255, 1);
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+.watch-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    background: rgba(251, 251, 253, 1);
+    width: 100vw;
+
+}
+.img-watch
+{
+    width: 1300px;
+    height: 459px;
+    background-image: url(./img/watch.png);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.watch-ultra
+{
+    color: coral;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.watch-header
+{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 0px;
+    letter-spacing: 0.28px;
+    color:rgba(29, 29, 31, 1);
+}
+.watch-big
+{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.11px;
+    color:rgba(29, 29, 31, 1);
+}
+.watch-links
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 200px;
+    color: rgba(0, 102, 204, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100vw;
+    background: rgba(245, 245, 247, 1);
+    display: flex;
+    flex-flow: column;
+}
+.footer-row1
+{
+    width: 60vw;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgba(110, 110, 115, 1);
+    margin: 0 auto;
+    margin-top: 31px;
+    font-weight: 200;
+
+}
+.footer-row2
+{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgba(110, 110, 115, 1);
+    margin: 0 auto;
+    margin-top: 31px;
+    font-weight: 200;
+}
+.header-ul
+{
+    color: black;
+}
+.footer-row3
+{
+    width: 60vw;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1x;
+    color: rgba(110, 110, 115, 1);
+    margin: 0 auto;
+    margin-top: 31px;
+    font-weight: 200;
+}
+.footer-row3-article
+{
+    width: 60vw;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgba(110, 110, 115, 1);
+    margin: 0 auto;
+    font-weight: 200;
+}
+.footer-row3-a
+{
+    color: rgba(0, 102, 204, 1);
+}
+.footer-row3-2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    font-size: 12px;
+    color: rgba(110, 110, 115, 1);
+    margin: 0 auto;
+    font-weight: 200;
+}
+.footer-row3-1
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-a-column
+{
+    width: 300px;
+    font-size: 12px;
+    color: rgba(110, 110, 115, 1);
+    font-weight: 200;
+    width: 78px;
+    padding: 5px;
+}
+.footer-a-column1
+{
+    display: block;
+    width: 300px;
+    font-size: 12px;
+    color: rgba(110, 110, 115, 1);
+    font-weight: 200;
+    width: 78px;
+}
